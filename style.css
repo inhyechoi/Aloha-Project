@@ -99,13 +99,16 @@ html{
 
 body{
 	margin: 0 auto;
+	font-family: 'ralewaylight';
 }
 
 h2 {
 	font-family: 'playfair_displayitalic', 'Times New Roman', Times, serif;
 	font-size: 2.5rem;
 }
-
+h3 {
+	font-family: 'playfairdisplay-regular';
+}
 .bold{
 	font-family: 'playfair_displaybold';
 	font-style: normal;
@@ -124,17 +127,17 @@ h2 {
 	float: right; 
 	width: 50px;
 	height: auto;
-	padding: 6px 2px 6px 0;
+	padding: 0.42rem 0.14rem 0.42rem 0;
 }
 
 .hero { /*banner image*/
 	text-align: center;
 	clear: both;
 	background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ), 
-	url('images/banner-girl.png') no-repeat center 50px, 
+	url('images/banner-girl.png') no-repeat center 3.57rem, 
 	url('images/flower-bkgd.jpg') repeat-x center top;
-	background-size: cover, 150px 380px, cover;	
-	height: 400px;
+	background-size: cover, 10.71rem 27.14rem, cover;	
+	height: 28.57rem;
 	position: relative;
 }
 
@@ -150,41 +153,41 @@ h2 {
 .hero_springsummer { /*text in banner image*/
 	font-family: 'playfairdisplay-regular', 'Times New Roman', Times, serif;
 	font-size: 2.5rem;
-	margin: 20px;
-	letter-spacing: 1px;
-	text-shadow: 2px 2px 8px #000000;
+	margin: 1.42rem;
+	letter-spacing: 0.07rem;
+	text-shadow: 0.14rem 0.14rem 0.57rem #000000;
 	color: #ffffff;
 	text-align: center;
 }
 
 .content1 {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	width:430px;
+	padding-top: 3.57rem;
+	padding-bottom: 3.57rem;
+	width: 30.71rem;
 	margin: 0 auto 0 auto;
 }
 
 .content1_text {
 	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
 	font-size: 1.14rem;
-	padding-top: 25px;
+	padding-top: 1.78rem;
 	line-height: 2;
 }
 
 .line-separator{
 	max-width: 100%;
-	border-bottom:1px solid #d4d4d4;
-	margin-bottom: 60px;
+	border-bottom: 0.07rem solid #d4d4d4;
+	margin-bottom: 4.28rem;
 }
 
 #container {	
 	text-align: center;	
 	height: auto;
-	margin-bottom: 8px
+	margin-bottom: 0.57rem;
 }
 
 .product li {
-	padding: 22px;
+	padding: 1.57rem;
 }
 
 li {
@@ -212,65 +215,68 @@ li {
 
 form {
 	position: relative; 
-	top: 30px;
-	width:400px;
+	top: 2.14rem;
+	width: 28.57rem;
 	margin: 0 auto;
 }
 
 input{
-  outline: none;
-  border-style: none;
-  padding: 10px 0 10px 30px;
-  color: black;
-  border-radius: 42px;
-  width: 350px;
-  height: 21px;
-  margin-top: 30px auto 20px auto;
-  font-family: 'ralewaylight';
-  font-size: 15px;
+	outline: none;
+	border-style: none;
+	border: 1px solid #d7d7d7;
+	padding: 0.71rem 0 0.71rem 2.14rem;
+	border-radius: 3rem;
+	width: 350px;
+	height: 21px;
+	font-family: 'ralewaylight';
+	font-size: 1.07rem;
+}
+input:focus{
+	outline: none;
+	box-shadow: .14rem .14rem .38rem #888888;
 }
 
 label{
-  font-family: Helvetica;
-  font-weight: bold;
+	font-family: Helvetica;
+	font-weight: bold;
 }
 
 .signup{
-	margin: 38px auto 0 auto;
-	text-shadow: 0.5px 0.5px 1px #000000;
+	margin: 2.71rem auto 0 auto;
+	text-shadow: 0.03rem 0.03rem 0.07rem #000000;
 	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
 	url('images/wave-bkgd.jpg') no-repeat bottom;
-	height: 335px;
+	height: 23.97rem;
 }
 
 .signup_text{
-	padding-top: 55px;
+	padding-top: 3.92rem;
 	color: #ffffff;
 }
 
 .signup_text2{
-	padding-top: 25px;
+	padding-top: 1.78rem;
 	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
 	font-size: 1.14rem;
 	color: #ffffff;
 	line-height: 2;
-	width:430px;
+	width: 30.71rem;
 	margin: 0 auto 0 auto;
 }
 
 button{
-  border: 0;
-  background-color: #e2574c;
-  color: #fff;
-  padding: 8px 10px;
-  border-radius: 42px;
-  width: 110px;
-  font-family: 'ralewaymedium';
-  font-weight: bold;
-  font-size: 1.03rem;
-  position: relative;
-  left: 130px;
-  bottom: 37px;
+	border: 0;
+	background-color: #e2574c;
+	color: #fff;
+	padding: 0.57rem 1.71rem;
+	border-radius: 3rem;
+	width: 110px;
+	font-family: 'ralewaymedium';
+	font-weight: bold;
+	font-size: 1.03rem;
+	position: relative;
+	left: 9.28rem;
+	bottom: 2.64rem;
 }
 
 button:hover,
@@ -279,12 +285,12 @@ button:active {
 }
 
 .footer {
-   height:150px;
-   width:100%;
-   max-width: 100%;
-   background:#242424;
-   text-align: center;
-   padding: 50px 0 100px 0;
+	height:10.71rem;
+	width:100%;
+	max-width: 100%;
+	background:#242424;
+	text-align: center;
+	padding: 3.57rem 0 7.14rem 0;
 }
 
 .footer p {
@@ -294,13 +300,13 @@ button:active {
 }
 
 .alohaapparel {
-	padding-top: 5px;
-	padding-bottom: 15px;
+	padding-top: 0.35rem;
+	padding-bottom: 1.07rem;
 	line-height: 1.5;
 }
 
 .contactinfo {
-	padding-bottom: 17px;
+	padding-bottom: 1.21rem;
 }
 
 .email {
@@ -308,22 +314,22 @@ button:active {
 }
 
 .email:hover {
-	background: #b64036;
+	color: #b64036;
 }
 
 .address {
 	line-height: 1.5;
-	margin-bottom: 26px;
+	margin-bottom: 1.85rem;
 }
 
 .address p{
-	color: #A8A8A8;
+	color: #969696;
 }
 
 
 .socialmedia li {
 	display: inline-block;
-	padding : 0 6px 0 6px;
+	padding : 0 0.42rem 0 0.42rem;
 
 }
 
@@ -331,5 +337,5 @@ button:active {
 	color: white;
 }
 .fa:hover {
-	color: #AD3F36;
+	color: #b64036;
 }
