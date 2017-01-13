@@ -4,7 +4,7 @@
 	display: table;
 	clear: both;
 }
-
+/*fonts*/
 @font-face {
     font-family: 'playfair_displaybold';
     src: url('fonts/playfairdisplay-bold-webfont.eot');
@@ -93,6 +93,7 @@
     font-style: italic;
 }
 
+
 html{
 	font-size:14px;
 }
@@ -115,22 +116,24 @@ h3 {
 }
 
 
-.logo { /*logo image*/
-	display: inline-block;
+/*header section*/
+.logo { 
 	float: left;
 	width: 120px;
 	height: auto;
 	padding: 0.57rem 0 0.43rem 0.36rem;
 }
 
-.cart { /*cart image*/
+.cart { 
 	float: right; 
 	width: 50px;
 	height: auto;
 	padding: 0.42rem 0.14rem 0.42rem 0;
 }
+/*end of header section*/
 
-.hero { /*banner image*/
+/*banner section*/
+.hero { 
 	text-align: center;
 	clear: both;
 	background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ), 
@@ -159,7 +162,9 @@ h3 {
 	color: #ffffff;
 	text-align: center;
 }
+/*end of banner section*/
 
+/*content section*/
 .content1 {
 	padding-top: 3.57rem;
 	padding-bottom: 3.57rem;
@@ -179,7 +184,9 @@ h3 {
 	border-bottom: 0.07rem solid #d4d4d4;
 	margin-bottom: 4.28rem;
 }
+/*end of content section*/
 
+/*product list section*/
 #container {	
 	text-align: center;	
 	height: auto;
@@ -198,7 +205,7 @@ li {
 .product p {
 	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
 	font-size: 0.78rem;
-	color: #808080;
+	color: #969696;
 }
 
 .product_name {
@@ -209,10 +216,11 @@ li {
 .product .price{
 	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
 	font-size: 1.07rem;
-	color: #808080;
+	color: #969696;
 }
+/*end of product list section*/
 
-
+/*sign up section*/
 form {
 	position: relative; 
 	top: 2.14rem;
@@ -242,20 +250,20 @@ label{
 }
 
 .signup{
-	margin: 2.71rem auto 0 auto;
+	margin: 2.8rem auto 0 auto;
 	text-shadow: 0.03rem 0.03rem 0.07rem #000000;
 	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
 	url('images/wave-bkgd.jpg') no-repeat bottom;
-	height: 23.97rem;
+	height: 24rem;
 }
 
 .signup_text{
-	padding-top: 3.92rem;
+	padding-top: 4rem;
 	color: #ffffff;
 }
 
 .signup_text2{
-	padding-top: 1.78rem;
+	padding-top: 1.40rem;
 	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
 	font-size: 1.14rem;
 	color: #ffffff;
@@ -283,14 +291,16 @@ button:hover,
 button:active {
 	background-color: #AD3F36; 
 }
+/*end of sign up section*/
 
+/*footer section*/
 .footer {
-	height:10.71rem;
-	width:100%;
-	max-width: 100%;
-	background:#242424;
-	text-align: center;
-	padding: 3.57rem 0 7.14rem 0;
+height: 10.3rem;
+width:100%;
+max-width: 100%;
+background:#242424;
+text-align: center;
+padding: 3.57rem 0 7.14rem 0;
 }
 
 .footer p {
@@ -339,3 +349,18 @@ button:active {
 .fa:hover {
 	color: #b64036;
 }
+/*end of footer section*/
+
+
+/* Breakpoints:tablet*/
+@media screen and (min-width: 600px) {
+   
+}
+/* end of Breakpoints:tablet*/
+
+
+/* Breakpoints:desktop*/
+@media screen and (min-width: 1240px) {
+
+}
+/* end of Breakpoints:desktop*/
