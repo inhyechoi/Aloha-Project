@@ -100,22 +100,6 @@ html{
 body{
 	margin: 0 auto;
 }
-.product p {
-	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
-	font-size: 0.78rem;
-	color: #808080;
-}
-
-.product_name {
-	color: #e2574c;
-	font-size: 1.64rem;
-}
-
-.product .price{
-	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
-	font-size: 1.07rem;
-	color: #808080;
-}
 
 h2 {
 	font-family: 'playfair_displayitalic', 'Times New Roman', Times, serif;
@@ -127,37 +111,20 @@ h2 {
 	font-style: normal;
 }
 
-.signup_text{
-	padding-top: 55px;
-	color: #ffffff;
-}
-
-.signup_text2{
-	padding-top: 25px;
-	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
-	font-size: 1.14rem;
-	color: #ffffff;
-	line-height: 2;
-}
 
 .logo { /*logo image*/
+	display: inline-block;
 	float: left;
 	width: 120px;
 	height: auto;
-	display: inline-block;
-	padding-top: 8px;
-	padding-left: 1px;
-	padding-bottom: 6px;
+	padding: 0.57rem 0 0.43rem 0.36rem;
 }
 
 .cart { /*cart image*/
 	float: right; 
-	position: 40px 40px;
 	width: 50px;
 	height: auto;
-	padding-top: 6px;
-	padding-right: 2px;
-	padding-bottom: 6px;
+	padding: 6px 2px 6px 0;
 }
 
 .hero { /*banner image*/
@@ -225,18 +192,23 @@ li {
 	line-height: 2;
 }
 
-.signup{
-	margin: 38px auto 0 auto;
-	text-shadow: 0.5px 0.5px 1px #000000;
-	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
-	url('images/wave-bkgd.jpg') no-repeat bottom;
-	height: 335px;
+.product p {
+	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
+	font-size: 0.78rem;
+	color: #808080;
 }
 
-.signup_text2{
-	width:430px;
-	margin: 0 auto 0 auto;
+.product_name {
+	color: #e2574c;
+	font-size: 1.64rem;
 }
+
+.product .price{
+	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
+	font-size: 1.07rem;
+	color: #808080;
+}
+
 
 form {
 	position: relative; 
@@ -246,9 +218,10 @@ form {
 }
 
 input{
+  outline: none;
   border-style: none;
   padding: 10px 0 10px 30px;
-  color: #fff;
+  color: black;
   border-radius: 42px;
   width: 350px;
   height: 21px;
@@ -260,6 +233,29 @@ input{
 label{
   font-family: Helvetica;
   font-weight: bold;
+}
+
+.signup{
+	margin: 38px auto 0 auto;
+	text-shadow: 0.5px 0.5px 1px #000000;
+	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
+	url('images/wave-bkgd.jpg') no-repeat bottom;
+	height: 335px;
+}
+
+.signup_text{
+	padding-top: 55px;
+	color: #ffffff;
+}
+
+.signup_text2{
+	padding-top: 25px;
+	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
+	font-size: 1.14rem;
+	color: #ffffff;
+	line-height: 2;
+	width:430px;
+	margin: 0 auto 0 auto;
 }
 
 button{
@@ -276,7 +272,6 @@ button{
   left: 130px;
   bottom: 37px;
 }
-
 
 button:hover,
 button:active {
@@ -313,7 +308,7 @@ button:active {
 }
 
 .email:hover {
-	background: #e2574c;
+	background: #b64036;
 }
 
 .address {
@@ -325,15 +320,16 @@ button:active {
 	color: #A8A8A8;
 }
 
-.fa {
-	color: white;
-}
-.fa:hover {
-	color: #AD3F36;
-}
 
 .socialmedia li {
 	display: inline-block;
 	padding : 0 6px 0 6px;
 
+}
+
+.fa {
+	color: white;
+}
+.fa:hover {
+	color: #AD3F36;
 }
