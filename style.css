@@ -1,0 +1,340 @@
+.clearfix:before,
+.clearfix:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('fonts/playfairdisplay-bold-webfont.eot');
+    src: url('fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg'),
+         url('fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair_displaybold_italic';
+    src: url('fonts/playfairdisplay-bolditalic-webfont.eot');
+    src: url('fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg'),
+         url('fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('fonts/playfairdisplay-italic-webfont.eot');
+    src: url('fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg'),
+         url('fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('fonts/playfairdisplay-regular-webfont.eot');
+    src: url('fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg'),
+         url('fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('fonts/raleway-light-webfont.eot');
+    src: url('fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-light-webfont.svg#ralewaylight') format('svg'),
+         url('fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('fonts/raleway-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('fonts/raleway-medium-webfont.eot');
+    src: url('fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg'),
+         url('fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('fonts/raleway-medium-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaylight_italic';
+    src: url('fonts/raleway-lightitalic-webfont.eot');
+    src: url('fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg'),
+         url('fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/raleway-lightitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ralewaymedium_italic';
+    src: url('fonts/raleway-mediumitalic-webfont.eot');
+    src: url('fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg'),
+         url('fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/raleway-mediumitalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+html{
+	font-size:14px;
+}
+
+body{
+	margin: 0 auto;
+}
+
+.product p {
+	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
+	font-size: 0.78rem;
+	color: #808080;
+}
+
+.product_name {
+	color: #e2574c;
+	font-size: 1.64rem;
+}
+
+.product .price{
+	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
+	font-size: 1.07rem;
+	color: #808080;
+}
+
+h2 {
+	font-family: 'playfair_displayitalic', 'Times New Roman', Times, serif;
+	font-size: 2.5rem;
+}
+
+.bold{
+	font-family: 'playfair_displaybold';
+	font-style: normal;
+}
+
+.signup_text{
+	padding-top: 55px;
+	color: #ffffff;
+}
+
+.signup_text2{
+	padding-top: 25px;
+	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
+	font-size: 1.14rem;
+	color: #ffffff;
+	line-height: 2;
+}
+
+.logo { /*logo image*/
+	float: left;
+	width: 120px;
+	height: auto;
+	display: inline-block;
+	padding-top: 8px;
+	padding-left: 1px;
+	padding-bottom: 6px;
+}
+
+.cart { /*cart image*/
+	float: right; 
+	position: 40px 40px;
+	width: 50px;
+	height: auto;
+	padding-top: 6px;
+	padding-right: 2px;
+	padding-bottom: 6px;
+}
+
+.hero { /*banner image*/
+	text-align: center;
+	clear: both;
+	background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ), 
+	url('images/banner-girl.png') no-repeat center 50px, 
+	url('images/flower-bkgd.jpg') repeat-x center top;
+	background-size: cover, 150px 380px, cover;	
+	height: 400px;
+	position: relative;
+}
+
+.hero_text { /*text in banner image*/
+	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
+	font-size: 1.35rem;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 2px 2px 8px #000000;
+	padding-top: 160px;
+}
+
+.hero_springsummer { /*text in banner image*/
+	font-family: 'playfairdisplay-regular', 'Times New Roman', Times, serif;
+	font-size: 2.5rem;
+	margin: 20px;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 8px #000000;
+	color: #ffffff;
+	text-align: center;
+}
+
+.content1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width:430px;
+	margin: 0 auto 0 auto;
+}
+
+.content1_text {
+	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
+	font-size: 1.14rem;
+	padding-top: 25px;
+	line-height: 2;
+}
+
+.line-separator{
+	max-width: 100%;
+	border-bottom:1px solid #d4d4d4;
+	margin-bottom: 60px;
+}
+
+#container {	
+	text-align: center;	
+	height: auto;
+	margin-bottom: 8px
+}
+
+.product li {
+	padding: 22px;
+}
+
+li {
+	list-style: none;
+	line-height: 2;
+}
+
+.signup{
+	margin: 38px auto 0 auto;
+	text-shadow: 0.5px 0.5px 1px #000000;
+	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
+	url('images/wave-bkgd.jpg') no-repeat bottom;
+	height: 335px;
+}
+
+.signup_text2{
+	width:430px;
+	margin: 0 auto 0 auto;
+}
+
+form {
+	position: relative; 
+	top: 30px;
+	width:400px;
+	margin: 0 auto;
+}
+
+input{
+  border-style: none;
+  padding: 10px 0 10px 30px;
+  color: #fff;
+  border-radius: 42px;
+  width: 350px;
+  height: 21px;
+  margin-top: 30px auto 20px auto;
+  font-family: 'ralewaylight';
+  font-size: 15px;
+}
+
+label{
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+button{
+  border: 0;
+  background-color: #e2574c;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 42px;
+  width: 110px;
+  font-family: 'ralewaymedium';
+  font-weight: bold;
+  font-size: 1.03rem;
+  position: relative;
+  left: 130px;
+  bottom: 37px;
+}
+
+
+button:hover,
+button:active {
+	background-color: #AD3F36; 
+}
+
+.footer {
+   height:150px;
+   width:100%;
+   max-width: 100%;
+   background:#242424;
+   text-align: center;
+   padding: 50px 0 100px 0;
+}
+
+.footer p {
+	color: white;
+	font-family: 'playfairdisplay-regular', 'Times New Roman', Times, serif;
+	font-size: 1rem;
+}
+
+.alohaapparel {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	line-height: 1.5;
+}
+
+.contactinfo {
+	padding-bottom: 17px;
+}
+
+.email {
+	color: white;
+}
+
+.email:hover {
+	background: #e2574c;
+}
+
+.address {
+	line-height: 1.5;
+	margin-bottom: 26px;
+}
+
+.address p{
+	color: #A8A8A8;
+}
+
+.fa {
+	color: white;
+}
+.fa:hover {
+	color: #AD3F36;
+}
+
+.socialmedia li {
+	display: inline-block;
+	padding : 0 6px 0 6px;
+
+}
