@@ -349,6 +349,21 @@ padding: 3.57rem 0 7.14rem 0;
 .fa:hover {
 	color: #b64036;
 }
+
+.socialmedia2 {
+	visibility: hidden;
+}
+
+.socialmedia2 li {
+	position: relative;
+	text-align: left;
+	float: none;
+	letter-spacing: 0.04rem;
+	width: 1rem;
+	height: 0rem;
+}
+
+
 /*end of footer section*/
 
 /* Breakpoints:tablet*/
@@ -478,7 +493,7 @@ button{
 
 .socialmedia{
 	float: right;
-	margin-right: 8rem;
+	margin-right: 7.5rem;
 }
 
 .socialmedia li {
@@ -486,6 +501,31 @@ button{
 	display: block;
 }
 
+.socialmedia2{
+	float: right;
+	visibility: visible;
+}
+
+}
+
+.socialmedia2 li {
+	text-align: left;
+	width: 6rem;
+	height: 2rem;
+	display: block;
+	position: relative;
+	left: 8.5rem;
+	letter-spacing: 0.04rem;
+
+}
+
+.socialmedia2 a{
+	color: white;
+	text-decoration: none;
+}
+.socialmedia2 a:hover {
+	color: #b64036;
+}
 /*end of footer section*/
 
 
