@@ -93,7 +93,7 @@
     font-style: italic;
 }
 
-
+/* start of mobile version*/
 html{
 	font-size:14px;
 }
@@ -362,9 +362,10 @@ padding: 3.57rem 0 7.14rem 0;
 	width: 1rem;
 	height: 0rem;
 }
-
-
 /*end of footer section*/
+/* End of mobile version*/
+
+
 
 /* Breakpoints:tablet*/
 @media screen and (min-width: 600px) {
@@ -506,8 +507,6 @@ button{
 	visibility: visible;
 }
 
-}
-
 .socialmedia2 li {
 	text-align: left;
 	width: 6rem;
@@ -527,15 +526,60 @@ button{
 	color: #b64036;
 }
 /*end of footer section*/
-
-
    
 }
 /* end of Breakpoints:tablet*/
 
 
 /* Breakpoints:desktop*/
-@media screen and (min-width: 1240px) {
 
+/*@media screen and (min-width: 1240px) {
+
+html{
+	font-size: 16px;
 }
+
+/*header section*/
+/*.logo {
+	width:10rem;	
+	padding: 0.5rem 0 0.6rem 0.79rem;
+}
+
+.cart { 
+	width: 3.9rem;
+	padding: 0.5rem 0.78rem 0.42rem 0;
+}*/
+/*end of header section*/
+
+/*}*/
+
+/*banner section*/
+
+
+/*
+.hero { 	
+	clear: both;
+	background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24) ), 
+	url('images/banner-girl.png') no-repeat center 3.95rem, 
+	url('images/flower-bkgd.jpg') repeat-x center top;
+	background-size: cover, auto 38rem, contain;
+	height: 34.3rem;
+	position: relative;
+}
+
+.hero_text { 
+	font-size: 1.3rem;
+	padding-top: 12rem;
+}
+
+.hero_springsummer { 
+	font-size: 2.8rem;
+	padding-top: 0.4rem;
+	letter-spacing: 0.07rem;
+}
+
+*/
+/*end of banner section
+
+
 /* end of Breakpoints:desktop*/
