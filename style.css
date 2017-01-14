@@ -141,6 +141,7 @@ h3 {
 	url('images/flower-bkgd.jpg') repeat-x center top;
 	background-size: cover, 10.71rem 27.14rem, cover;	
 	height: 28.57rem;
+	max-height: 28.57rem;
 	position: relative;
 }
 
@@ -397,7 +398,7 @@ h2 {
 	background: linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), 
 	url('images/banner-girl.png') no-repeat center 3.8rem, 
 	url('images/flower-bkgd.jpg') repeat-x center top;
-	background-size: cover, auto 23rem, cover;
+	background-size: cover, auto 23rem, contain;
 	height: 25rem;
 	position: relative;
 }
@@ -533,14 +534,14 @@ button{
 
 /* Breakpoints:desktop*/
 
-/*@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1240px) {
 
 html{
 	font-size: 16px;
 }
 
 /*header section*/
-/*.logo {
+.logo {
 	width:10rem;	
 	padding: 0.5rem 0 0.6rem 0.79rem;
 }
@@ -548,15 +549,11 @@ html{
 .cart { 
 	width: 3.9rem;
 	padding: 0.5rem 0.78rem 0.42rem 0;
-}*/
+}
 /*end of header section*/
 
-/*}*/
 
 /*banner section*/
-
-
-/*
 .hero { 	
 	clear: both;
 	background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24) ), 
@@ -577,9 +574,7 @@ html{
 	padding-top: 0.4rem;
 	letter-spacing: 0.07rem;
 }
+/*end of banner section*/
 
-*/
-/*end of banner section
-
-
+}
 /* end of Breakpoints:desktop*/
