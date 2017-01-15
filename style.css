@@ -141,7 +141,6 @@ h3 {
 	url('images/flower-bkgd.jpg') repeat-x center top;
 	background-size: cover, 10.71rem 27.14rem, cover;	
 	height: 28.57rem;
-	max-height: 28.57rem;
 	position: relative;
 }
 
@@ -167,9 +166,7 @@ h3 {
 
 /*content section*/
 .content1 {
-	padding-top: 3.57rem;
-	padding-bottom: 3.57rem;
-	width: 30.71rem;
+	padding: 3.57rem 1rem 4rem 1rem;
 	margin: 0 auto 0 auto;
 }
 
@@ -177,6 +174,7 @@ h3 {
 	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
 	font-size: 1.14rem;
 	padding-top: 1.78rem;
+	margin: 0 auto 0 auto;
 	line-height: 2;
 }
 
@@ -225,17 +223,16 @@ li {
 form {
 	position: relative; 
 	top: 2.14rem;
-	width: 28.57rem;
+	width: 27rem;
 	margin: 0 auto;
 }
 
 input{
 	outline: none;
 	border-style: none;
-	/*border: 0.07rem solid #d7d7d7;*/
 	padding: 0.71rem 0 0.71rem 2.14rem;
 	border-radius: 3rem;
-	width: 25rem;
+	width: 22rem;
 	height: 1.5rem;
 	font-family: 'ralewaylight';
 	font-size: 1.07rem;
@@ -269,8 +266,7 @@ label{
 	font-size: 1.14rem;
 	color: #ffffff;
 	line-height: 2;
-	width: 30.71rem;
-	margin: 0 auto 0 auto;
+	margin: 0 1.95% 0 1.95%;
 }
 
 button{
@@ -284,7 +280,7 @@ button{
 	font-weight: bold;
 	font-size: 1.03rem;
 	position: relative;
-	left: 9.28rem;
+	left: 7.9rem;
 	bottom: 2.64rem;
 }
 
@@ -391,14 +387,15 @@ h2 {
 }
 /*end of header section*/
 
+
 /*banner section*/
 
 .hero { 	
 	clear: both;
 	background: linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), 
-	url('images/banner-girl.png') no-repeat center 3.8rem, 
+	url('images/banner-girl.png') no-repeat center 4.5rem, 
 	url('images/flower-bkgd.jpg') repeat-x center top;
-	background-size: cover, auto 23rem, contain;
+	background-size: cover, 9.37rem 22rem, cover;
 	height: 25rem;
 	position: relative;
 }
@@ -419,7 +416,6 @@ h2 {
 .content1 {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
-	width: 34rem;
 	margin: 0 auto 0 auto;
 }
 
@@ -444,6 +440,11 @@ h2 {
 .product_list h2{
 	margin-bottom: 2rem;
 }
+
+.product_list h3{
+	font-size: 1.5rem;
+}
+
 .product li {
 	padding: 1rem;
 }
@@ -451,6 +452,7 @@ h2 {
 li {
 	display: inline-block;
 	width: 15.62rem;
+	line-height: 1.9;
 }
 
 .product img {
@@ -463,8 +465,9 @@ li {
 	margin-top: 6rem;
 }
 
-.signup p {
-width: 34rem;
+.signup p{
+	padding: 0 0.5% 0 0.5%;
+	margin-top: 2rem;
 }
 
 input{
@@ -557,24 +560,142 @@ html{
 .hero { 	
 	clear: both;
 	background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24) ), 
-	url('images/banner-girl.png') no-repeat center 3.95rem, 
+	url('images/banner-girl.png') no-repeat center 3.8rem, 
 	url('images/flower-bkgd.jpg') repeat-x center top;
-	background-size: cover, auto 38rem, contain;
+	background-size: cover, auto 38.5rem, contain;
 	height: 34.3rem;
 	position: relative;
 }
 
 .hero_text { 
-	font-size: 1.3rem;
-	padding-top: 12rem;
+	font-size: 1.25rem;
+	padding-top: 13.9rem;
+	text-shadow: 0.005rem 0.005rem 0.2rem #969696;
 }
 
 .hero_springsummer { 
-	font-size: 2.8rem;
-	padding-top: 0.4rem;
+	font-size: 3.9rem;
 	letter-spacing: 0.07rem;
+	text-shadow: 0.005rem 0.005rem 0.2rem #969696;
+	margin-top: 1rem;
 }
-/*end of banner section*/
+/*end of banner section/
+
+
+/*content section*/
+.content1 {
+	padding: 4.2rem 18rem 4rem 18rem;
+	margin: 0 auto 0 auto;
+}
+
+.content1_text {
+	font-size: 1.15rem;
+	padding-top: 1.5rem;
+	line-height: 2;
+}
+
+.line-separator{
+	max-width: 100%;
+	border-bottom: 0.07rem solid #d4d4d4;
+	margin-bottom: 4rem;
+}
+/*end of content section*/
+
+/*product list section*/
+.product {
+	width: 77rem;
+	height: 23rem;
+	margin: auto;
+}
+
+
+li {
+	display: inline-block;
+	vertical-align:middle;
+	width: 16rem;
+	height: 24.56rem;
+}
+
+.product h3 {
+	font-size: 1.5rem;
+	line-height: 1;
+	padding: 1rem;
+}
+
+/*end of product list section*/
+
+/*signup section*/
+.signup{
+	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
+	url('images/wave-bkgd.jpg') no-repeat bottom;
+	height: 22rem;
+}
+
+.signup h2{
+	padding-top: 0.5rem;
+	font-size: 2.4rem;
+}
+
+.signup_text2 {
+	margin: 0 auto 0 auto;
+	width: 41.87rem;
+}
+
+.formcontainer {
+	padding-top: 0rem;
+	margin: 0 auto 0 auto;
+	width: 25rem;
+}
+
+form {
+	width: 25rem;
+}
+
+input {
+	width: 23rem;
+	padding: 0.6rem 2rem 0.6rem 2rem;
+}
+
+button{
+	position: relative;
+	left: 10.3rem;
+	bottom: 2.5rem;
+}
+
+/*end of signup section*/
+
+/*footer section*/
+
+.socialmedia{
+	float: right;
+	padding-right: 5rem;
+}
+
+.socialmedia ul{
+	display: block;
+}
+
+.socialmedia li {
+	width: 0.3rem;
+	height: 0.3rem;
+	margin: 0.2rem 0.2rem 1.6rem 1.3rem;
+}
+
+.socialmedia2{
+	float: right;
+	visibility: visible;
+}
+
+.socialmedia2 li {
+	position: relative;
+	display: block;
+	left: 11rem;
+	bottom: 0.3rem;
 
 }
+
+/* end of Breakpoints:tablet*/
+
+
+
 /* end of Breakpoints:desktop*/
