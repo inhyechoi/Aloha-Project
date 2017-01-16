@@ -462,10 +462,17 @@ h2 {
 	font-size: 1.5rem;
 }
 
+.product_list ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 .product li {
 	padding: 1rem;
 	display: inline-block;
 	line-height: 1.9;
+	flex: 0 1 40%;
 }
 
 /*end of product list section*/
