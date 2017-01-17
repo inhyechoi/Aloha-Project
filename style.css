@@ -434,8 +434,8 @@ h2 {
 .content1_text {
 	font-size: 1.15rem;
 	padding-top: 1.3rem;
-	margin: 0 1rem;
 	line-height: 2;
+/*	width: 42rem;*/
 }
 
 .line-separator{
@@ -446,9 +446,6 @@ h2 {
 /*end of content section*/
 
 /*product list section*/
-.product_list {
-	display: flex-inline;
-}
 
 .product {
 	margin: 0 1rem 0 1rem;
@@ -492,6 +489,9 @@ h2 {
 	margin: 2rem 3rem 0 3rem;
 }
 
+.signup_text2 {
+	/*width: 42rem;*/
+}
 input{
 	max-width: 27rem;
 	width: 100%;
@@ -517,7 +517,7 @@ button{
 
 .footer_text {
 	width: 20rem;
-	padding-left: 0.8rem;
+	margin-left: 1.3rem;
 	text-align: left;
 }
 
@@ -529,7 +529,7 @@ button{
 }
 
 .socialmedia{
-	margin-right: 2.2rem;
+	margin-right: 2.7rem;
 }
 .socialmedia li {
 	width: auto;
@@ -553,7 +553,6 @@ button{
 }
 /* end of Breakpoints:tablet*/
 
-
 /* Breakpoints:desktop*/
 
 @media screen and (min-width: 1240px) {
@@ -563,14 +562,20 @@ html{
 }
 
 /*header section*/
+
+.header{
+	display:flex;
+	justify-content: space-between;
+}
+
 .logo {
-	width:10rem;	
-	padding: 0.5rem 0 0.6rem 0.79rem;
+	width:10rem;
+	margin: 0.5rem 0 0.5rem 1.4rem;
 }
 
 .cart { 
 	width: 3.9rem;
-	padding: 0.5rem 0.78rem 0.42rem 0;
+	margin: 0.5rem 2.7rem 0.42rem 0;
 }
 /*end of header section*/
 
@@ -579,7 +584,7 @@ html{
 .hero { 	
 	clear: both;
 	background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24) ), 
-	url('images/banner-girl.png') no-repeat center 3.8rem, 
+	url('images/banner-girl.png') no-repeat center 3.81rem, 
 	url('images/flower-bkgd.jpg') repeat-x center top;
 	background-size: cover, auto 38.5rem, contain;
 	height: 34.3rem;
@@ -589,14 +594,12 @@ html{
 .hero_text { 
 	font-size: 1.25rem;
 	padding-top: 13.9rem;
-	text-shadow: 0.005rem 0.005rem 0.2rem #969696;
 }
 
 .hero_springsummer { 
 	font-size: 3.9rem;
-	letter-spacing: 0.07rem;
-	text-shadow: 0.005rem 0.005rem 0.2rem #969696;
-	margin-top: 1rem;
+	letter-spacing: 0.04rem;
+	margin-top: 1.1rem;
 }
 /*end of banner section/
 
@@ -621,19 +624,24 @@ html{
 /*end of content section*/
 
 /*product list section*/
-.product {
-	width: 77rem;
-	height: 23rem;
-	margin: auto;
+
+
+.product{
+	width: auto;
 }
+ .product_list ul{
+ 	display: inline-block;
+ }
 
-
-li {
-	display: inline-block;
-	vertical-align:middle;
+ .product li {
 	width: 16rem;
-	height: 24.56rem;
+	vertical-align: middle;
 }
+
+img {
+	width: 15rem;
+}
+
 
 .product h3 {
 	font-size: 1.5rem;
@@ -647,17 +655,17 @@ li {
 .signup{
 	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
 	url('images/wave-bkgd.jpg') no-repeat bottom;
-	height: 22rem;
+	height: 21.5rem;
+	margin-top: 3rem;
 }
 
 .signup h2{
-	padding-top: 0.5rem;
 	font-size: 2.4rem;
 }
 
-.signup_text2 {
-	margin: 0 auto 0 auto;
-	width: 41.87rem;
+p.signup_text2 {
+	align-self: center;
+	margin: 1.6rem 17rem 0 17rem;
 }
 
 .formcontainer {
@@ -672,30 +680,42 @@ form {
 }
 
 input {
-	width: 23rem;
-	padding: 0.6rem 2rem 0.6rem 2rem;
+	width: 25rem;
+	padding: 0.8rem 2rem 0.8rem 2rem;
 }
 
 button{
 	position: relative;
 	left: 10.3rem;
-	bottom: 2.5rem;
+	bottom: 2.8rem;
 }
 
 /*end of signup section*/
 
 /*footer section*/
 
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;;
+}
+
+.footer_text {
+	text-align: left;
+	margin-left: 2.2rem;
+}
+
 .socialmedia{
-	padding-right: 5rem;
+	margin-right: 5rem;
 }
 
 .socialmedia ul{
-	display: block;
+	text-decoration: none;
+	text-align: left;
 }
 
 .socialmedia li {
-	width: 0.3rem;
+	width: 7rem;
 	height: 0.3rem;
 	margin: 0.2rem 0.2rem 1.6rem 1.3rem;
 }
@@ -703,15 +723,6 @@ button{
 .socialmedia2{
 	visibility: visible;
 }
-
-.socialmedia2 li {
-	position: relative;
-	display: block;
-	left: 11rem;
-	bottom: 0.3rem;
-
-}
-
 
 
 
