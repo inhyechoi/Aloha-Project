@@ -105,7 +105,7 @@ body{
 
 h2 {
 	font-family: 'playfair_displayitalic', 'Times New Roman', Times, serif;
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 }
 h3 {
 	font-family: 'playfairdisplay-regular';
@@ -118,38 +118,46 @@ h3 {
 
 /*header section*/
 .header{
+/*	position: fixed;*/
+	background-color:white;
 	display: flex;
-	margin-bottom: 0.6rem;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	padding: 1rem .7rem .5rem .7rem;
 }
 .logo { 
 	width: 8.59rem;
 	height: auto
 	padding: 0.1rem;
-	margin: 0.49rem 0 0 0.32rem;
+	flex-grow: 0;
 }
 
 .cart { 
 	width: 3.57rem;
 	height: auto;
-	margin: 0.4rem 0.7rem 0 0;
+	flex-grow: 0;
 }
 
-.nav {
+.nav
+	{
 	width: 100%;
-}
+	border-top: 1px solid #D3D3D3;
+	margin-top: 0.5rem;
+	}
 
 .nav ul{
-	display: flex;
-	justify-content: center;
+	text-align: center;
+	padding: 0.5rem 1.2rem 0 1.2rem;
+
 }
 
-.nav li{
-	padding: 0 0.8rem;
+.nav li {
+	display: inline;
+	margin: 0 1rem;
+	font-size: 1rem;
+	font-family: 'ralewaymedium';
+	color: #F05146;
 }
-
-
 
 /*end of header section*/
 
@@ -158,28 +166,27 @@ h3 {
 	text-align: center;
 	clear: both;
 	background: linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ), 
-	url('images/banner-girl.png') no-repeat center 4.2rem, 
+	url('images/banner-girl.png') no-repeat center 3.4rem, 
 	url('images/flower-bkgd.jpg') repeat-x center top;
-	background-size: cover, 10.71rem 26.7em, cover;	
-	height: 28.57rem;
+	background-size: cover, 10.71rem 26.3em, cover;	
+	height: 27.6rem;
 	position: relative;
 }
 
 
 .hero_text { /*text in banner image*/
 	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
-	font-size: 1.35rem;
+	font-size: 1.26rem;
 	color: #ffffff;
 	text-align: center;
 	text-shadow: 0.14rem 0.14rem 0.57rem rgba(0, 0, 0, 0.6);
-	padding-top: 11.42rem;
+	padding-top: 10.75rem;
 }
 
 .hero_springsummer { /*text in banner image*/
 	font-family: 'playfairdisplay-regular', 'Times New Roman', Times, serif;
 	font-size: 2.5rem;
 	margin: 1.42rem;
-	letter-spacing: 0.07rem;
 	text-shadow: 0.14rem 0.14rem 0.57rem rgba(0, 0, 0, 0.6);
 	color: white;
 	text-align: center;
@@ -188,7 +195,7 @@ h3 {
 
 /*content section*/
 .content1 {
-	padding: 3.57rem 1rem 4rem 1rem;
+	padding: 4rem 1rem 4rem 1rem;
 	margin: 0 auto 0 auto;
 }
 
@@ -200,12 +207,34 @@ h3 {
 	line-height: 2;
 }
 
-.line-separator{
+.line-separator {
 	max-width: 100%;
 	border-bottom: 0.07rem solid #d4d4d4;
 	margin-bottom: 4.28rem;
 }
 /*end of content section*/
+
+/*box images section*/
+
+.box {
+	height: 20rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box1 {
+	width: 100%;
+}
+
+.box2 {
+	width: 50%;
+}
+
+.box3 {
+	width: 50%;
+}
+
+/*end of box images section*/
 
 /*product list section*/
 #container {	
@@ -269,6 +298,19 @@ label{
 	font-family: Helvetica;
 	font-weight: bold;
 }
+
+/*.hero { 
+	text-align: center;
+	clear: both;
+	background: linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ), 
+	url('images/banner-girl.png') no-repeat center 3.4rem, 
+	url('images/flower-bkgd.jpg') repeat-x center top;
+	background-size: cover, 10.71rem 26.3em, cover;	
+	height: 27.6rem;
+	position: relative;
+}
+*/
+
 
 .signup{
 	margin: 2.8rem auto 0 auto;
@@ -400,30 +442,29 @@ h2 {
 }
 
 /*header section*/
-.nav {
-	width: 15rem;
-	order: 2;
+.header {
+	padding: 1rem 0.8rem 1rem 0.8rem;
 }
-
-.nav ul{
-	justify-content: flex-start;
-	display: flex;
-	justify-content: center;
-}
-.header{
-	margin: 0;
-}
-
 
 .logo { 
-	width: 9.1rem;
-	margin: 0.5rem 0 0.6rem 0.5rem;
+	width: 7.4rem;
+	order: 1;
 }
 
 .cart { 
-	width: 3.6rem;
-	margin: 0.4rem 0.94rem 0rem 0;
+	width: 3rem;
 	order: 3;
+}
+
+.nav {
+	width: 60%;
+	order: 2;
+	border-top: none;
+}
+
+.nav li {
+	margin: 0 0.3rem;
+	font-size: 0.85rem;
 }
 /*end of header section*/
 
