@@ -1,14 +1,12 @@
-$('a[href*="#"]:not([href="#"])').click(function() {
-  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-    var target = $(this.hash);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-    if (target.length) {
-      $('html, body').animate({
-        scrollTop: target.offset().top
-      }, 1000);
-      return false;
-    }
-  }
+$('a[href^="#"]').on('click', function (event) {
+    event.preventDefault();
+
+    var target = this.hash,                                     // takes '#' of 'a href'
+        $target = $(target);                                     // targets '#' of 'a href'
+
+    $('html, body').animate({                                 // animate method on the body
+        scrollTop: $target.offset().top - 80         // scrolltop animate method smooth scroll to corresponding 'a href' #
+    }, 900)                                                               // .top 116 for fixed nav bar. 900 for scroll speed in millisec
 });
 
 
@@ -16,13 +14,12 @@ $(function() {
         $('.product').flickity({
             cellAlign: 'center',
             contain: true,
-            percentPosition: false,
+            percentPosition: true,
             imagesLoaded: true,
             autoPlay: true,
             prevNextButtons: false
         });
     })  
-
 
 
 

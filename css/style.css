@@ -7,7 +7,7 @@
 
 /*fonts*/
 @font-face {
-    font-family: 'playfair_displaybold';
+    font-family: 'Playfair Display Web';
     src: url('../fonts/playfairdisplay-bold-webfont.eot');
     src: url('../fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg'),
@@ -18,7 +18,7 @@
 }
 
 @font-face {
-    font-family: 'playfair_displaybold_italic';
+    font-family: 'Playfair Display Web';
     src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
     src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg'),
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-    font-family: 'playfair_displayitalic';
+    font-family: 'Playfair Display Web';
     src: url('../fonts/playfairdisplay-italic-webfont.eot');
     src: url('../fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg'),
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-    font-family: 'playfair_displayregular';
+    font-family: 'Playfair Display Web';
     src: url('../fonts/playfairdisplay-regular-webfont.eot');
     src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg'),
@@ -51,7 +51,7 @@
 }
 
 @font-face {
-    font-family: 'ralewaylight';
+    font-family: 'Raleway Display Web';
     src: url('../fonts/raleway-light-webfont.eot');
     src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg'),
@@ -62,7 +62,7 @@
 }
 
 @font-face {
-    font-family: 'ralewaymedium';
+    font-family: 'Raleway Display Web';
     src: url('../fonts/raleway-medium-webfont.eot');
     src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg'),
@@ -73,7 +73,7 @@
 }
 
 @font-face {
-    font-family: 'ralewaylight_italic';
+    font-family: 'Raleway Display Web';
     src: url('../fonts/raleway-lightitalic-webfont.eot');
     src: url('../fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg'),
@@ -84,7 +84,7 @@
 }
 
 @font-face {
-    font-family: 'ralewaymedium_italic';
+    font-family: 'Raleway Display Web';
     src: url('../fonts/raleway-mediumitalic-webfont.eot');
     src: url('../fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg'),
@@ -107,19 +107,26 @@ html{
 
 body{
 	margin: 0 auto;
-	font-family: 'ralewaylight', sans-serif; 
+	font-family: 'Raleway Display Web', sans-serif; 
+	font-weight: normal;
+    font-style: normal;
 }
 
 h2 {
-	font-family: 'playfair_displayitalic', serif;
+	font-family: 'Playfair Display Web', serif;
+	font-weight: normal;
+    font-style: italic;
 	font-size: 2.4rem;
 }
 h3 {
-	font-family: 'playfairdisplay-regular', serif;
+	font-family: 'Playfair Display Web', serif;
+	font-weight: normal;
+    font-style: normal;
 }
 .bold{
 	font-family: 'playfair_displaybold', serif;
-	font-style: normal;
+	font-weight: bold;
+    font-style: normal;
 }
 
 
@@ -169,7 +176,9 @@ h3 {
 
 .nav a{
 	font-size: 1rem;
-	font-family: 'ralewaymedium', sans-serif;
+	font-family: 'Raleway Display Web', sans-serif;
+	font-weight: bold;
+    font-style: normal;
 	color: #F05146;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -192,7 +201,9 @@ h3 {
 
 
 .hero_text { /*text in banner image*/
-	font-family: 'ralewaymedium', sans-serif; 
+	font-family: 'Raleway Display Web', sans-serif; 
+	font-weight: bold;
+    font-style: normal;
 	font-size: 1.26rem;
 	color: #ffffff;
 	text-align: center;
@@ -202,7 +213,9 @@ h3 {
 }
 
 .hero_springsummer { /*text in banner image*/
-	font-family: 'playfairdisplay-regular', serif;
+	font-family: 'Playfair Display Web', serif;
+	font-weight: normal;
+    font-style: normal;
 	font-size: 2.5rem;
 	margin: 1.42rem 3.42rem;
 	text-shadow: 0.14rem 0.14rem 0.57rem rgba(0, 0, 0, 0.4);
@@ -218,7 +231,9 @@ h3 {
 }
 
 .content1_text {
-	font-family: 'ralewaylight', sans-serif; 
+	font-family: 'Raleway Display Web', sans-serif; 
+	font-weight: normal;
+    font-style: normal;
 	font-size: 1.14rem;
 	padding-top: 1.4rem;
 	margin: 0 auto 0 auto;
@@ -240,7 +255,9 @@ h3 {
 .box_category{
 	text-transform: uppercase;
 	color: white;
-	font-family: 'ralewaymedium', sans-serif;
+	font-family: 'Raleway Display Web', sans-serif; 
+	font-weight: bold;
+    font-style: normal;
 	font-size: 1.7rem;
 }
 
@@ -318,7 +335,9 @@ h3 {
 	padding: 0;
 }
 .product p {
-	font-family: 'ralewaymedium', sans-serif; 
+	font-family: 'Raleway Display Web', sans-serif; 
+	font-weight: bold;
+    font-style: normal;
 	font-size: 0.78rem;
 	color: #969696;
 	text-transform: uppercase;
@@ -330,10 +349,14 @@ h3 {
 }
 
 .product .price{
-	font-family: 'ralewaymedium', sans-serif; 
+	font-family: 'Raleway Display Web', sans-serif; 
+	font-weight: bold;
+    font-style: normal;
 	font-size: 1.07rem;
 	color: #969696;
 }
+
+
 /*end of product list section*/
 
 /*sign up section*/
@@ -352,7 +375,9 @@ input{
 	border-radius: 3rem;
 	width: 26.8rem;
 	height: 3rem;
-	font-family: 'ralewaylight', sans-serif;
+	font-family: 'Raleway Display Web', sans-serif; 
+	font-weight: normal;
+    font-style: normal;
 	font-size: 1.07rem;
 }
 input:focus{
@@ -380,7 +405,9 @@ label{
 
 .signup_text2{
 	padding-top: 1.40rem;
-	font-family: 'ralewaylight', sans-serif;
+	font-family: 'Raleway Display Web', sans-serif; 
+	font-weight: normal;
+    font-style: normal;
 	font-size: 1.14rem;
 	color: #ffffff;
 	line-height: 2;
@@ -395,8 +422,9 @@ button{
 	border-radius: 3rem;
 	width: 7.85rem;
 	cursor: pointer;
-	font-family: 'ralewaymedium', sans-serif;
+	font-family: 'Raleway Display Web', sans-serif; 
 	font-weight: bold;
+    font-style: normal;
 	font-size: 1.03rem;
 	position: relative;
 	left: 9.2rem;
@@ -424,7 +452,9 @@ button:active {
 
 .footer p {
 	color: white;
-	font-family: 'playfairdisplay-regular', serif;
+	font-family: 'Playfair Display Web', serif;
+	font-weight: normal;
+    font-style: normal;
 	font-size: 1rem;
 }
 
@@ -615,6 +645,7 @@ h2 {
 .product_images {
 	height: 28rem;
 	padding: 2.3rem;
+	width: 50%;
 }
 
 .product_images img{
