@@ -107,18 +107,18 @@ html{
 
 body{
 	margin: 0 auto;
-	font-family: 'ralewaylight';
+	font-family: 'ralewaylight', sans-serif; 
 }
 
 h2 {
-	font-family: 'playfair_displayitalic', 'Times New Roman', Times, serif;
+	font-family: 'playfair_displayitalic', serif;
 	font-size: 2.4rem;
 }
 h3 {
-	font-family: 'playfairdisplay-regular';
+	font-family: 'playfairdisplay-regular', serif;
 }
 .bold{
-	font-family: 'playfair_displaybold';
+	font-family: 'playfair_displaybold', serif;
 	font-style: normal;
 }
 
@@ -138,7 +138,7 @@ h3 {
 }
 
 .logo { 
-	width: 8.59rem;
+	width: 8.8rem;
 	height: auto;
 	padding: 0 0.1rem 0 0.15rem;
 }
@@ -169,7 +169,7 @@ h3 {
 
 .nav a{
 	font-size: 1rem;
-	font-family: 'ralewaymedium';
+	font-family: 'ralewaymedium', sans-serif;
 	color: #F05146;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -179,20 +179,20 @@ h3 {
 
 /*banner section*/
 .hero { 
-	margin-top: 8.3rem;
+	margin-top: 8.05rem;
 	text-align: center;
 	clear: both;
 	background: linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ), 
-	url('../images/banner-girl.png') no-repeat center 3.4rem, 
+	url('../images/banner-girl.png') no-repeat center 4.6rem, 
 	url('../images/flower-bkgd.jpg') repeat-x center top;
 	background-size: cover, 10.71rem 26.3em, cover;	
-	height: 27.8rem;
+	height: 28.8rem;
 	position: relative;
 }
 
 
 .hero_text { /*text in banner image*/
-	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
+	font-family: 'ralewaymedium', sans-serif; 
 	font-size: 1.26rem;
 	color: #ffffff;
 	text-align: center;
@@ -202,10 +202,10 @@ h3 {
 }
 
 .hero_springsummer { /*text in banner image*/
-	font-family: 'playfairdisplay-regular', 'Times New Roman', Times, serif;
+	font-family: 'playfairdisplay-regular', serif;
 	font-size: 2.5rem;
-	margin: 1.42rem;
-	text-shadow: 0.14rem 0.14rem 0.57rem rgba(0, 0, 0, 0.6);
+	margin: 1.42rem 3.42rem;
+	text-shadow: 0.14rem 0.14rem 0.57rem rgba(0, 0, 0, 0.4);
 	color: white;
 	text-align: center;
 }
@@ -218,9 +218,9 @@ h3 {
 }
 
 .content1_text {
-	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
+	font-family: 'ralewaylight', sans-serif; 
 	font-size: 1.14rem;
-	padding-top: 1.78rem;
+	padding-top: 1.4rem;
 	margin: 0 auto 0 auto;
 	line-height: 2;
 }
@@ -237,57 +237,64 @@ h3 {
 	margin-bottom: 4rem;
 }
 
+.box_category{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'ralewaymedium', sans-serif;
+	font-size: 1.7rem;
+}
+
 
 .mens-category {
-	background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ), 
 	url('../images/mens-category.jpg')no-repeat center ;
     background-size: cover, cover;
-	padding:25% 0;
+	padding:20% 0;
 	flex: 2 0 100%;
 	border: 4px solid white;
 }
 
 .trends-category {
-	background:  
+	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	url('../images/trends-category.jpg')no-repeat center; 
 	background-size: cover, cover;
-	padding:25% 0;
+	padding:20% 0;
 	flex: 1 0 50%;
 	border: 4px solid white;
 }
 
 .glasses-category {
-	background:  
+	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	url('../images/glasses-category.jpg')no-repeat center;
 	background-size: cover, cover;
-	padding:25% 0;
+	padding:20% 0;
 	flex: 1 0 50%;
 	border: 4px solid white;
 }
 
 .sale-category {
-	background:  
+	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	url('../images/sale-category.jpg')no-repeat center;
 	background-size: cover, cover;
-	padding:25% 0;
+	padding:20% 0;
 	flex: 1 0 50%;
 	border: 4px solid white;
 }
 
 .bags-category {
-	background:  
+	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	url('../images/bags-category.jpg')no-repeat center; 
 	background-size: cover, cover;
-	padding:25% 0;
+	padding:20% 0;
 	flex: 1 0 50%;
 	border: 4px solid white;
 }
 
 .womens-category {
-	background:  
+	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	url('../images/womens-category.jpg')no-repeat center; 
 	background-size: cover, cover;
-	padding:25% 0;
+	padding:20% 0;
 	flex: 1 0 100%;
 	border: 4px solid white;
 }
@@ -311,7 +318,7 @@ h3 {
 	padding: 0;
 }
 .product p {
-	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
+	font-family: 'ralewaymedium', sans-serif; 
 	font-size: 0.78rem;
 	color: #969696;
 	text-transform: uppercase;
@@ -323,7 +330,7 @@ h3 {
 }
 
 .product .price{
-	font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
+	font-family: 'ralewaymedium', sans-serif; 
 	font-size: 1.07rem;
 	color: #969696;
 }
@@ -345,7 +352,7 @@ input{
 	border-radius: 3rem;
 	width: 26.8rem;
 	height: 3rem;
-	font-family: 'ralewaylight';
+	font-family: 'ralewaylight', sans-serif;
 	font-size: 1.07rem;
 }
 input:focus{
@@ -373,7 +380,7 @@ label{
 
 .signup_text2{
 	padding-top: 1.40rem;
-	font-family: 'ralewaylight', 'Times New Roman', Times, serif;
+	font-family: 'ralewaylight', sans-serif;
 	font-size: 1.14rem;
 	color: #ffffff;
 	line-height: 2;
@@ -388,7 +395,7 @@ button{
 	border-radius: 3rem;
 	width: 7.85rem;
 	cursor: pointer;
-	font-family: 'ralewaymedium';
+	font-family: 'ralewaymedium', sans-serif;
 	font-weight: bold;
 	font-size: 1.03rem;
 	position: relative;
@@ -417,7 +424,7 @@ button:active {
 
 .footer p {
 	color: white;
-	font-family: 'playfairdisplay-regular', 'Times New Roman', Times, serif;
+	font-family: 'playfairdisplay-regular', serif;
 	font-size: 1rem;
 }
 
@@ -523,7 +530,7 @@ h2 {
 .hero { 	
 	margin-top: 5.2rem;
 	clear: both;
-	background: linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), 
+	background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), 
 	url('../images/banner-girl.png') no-repeat center 3.8rem, 
 	url('../images/flower-bkgd.jpg') repeat-x center top;
 	background-size: cover, 9.37rem 23rem, cover;
@@ -539,6 +546,7 @@ h2 {
 .hero_springsummer { /*text in banner image*/
 	font-size: 2.95rem;
 	letter-spacing: 0.04rem;
+	text-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 /*end of banner section*/
 
@@ -564,32 +572,32 @@ h2 {
 }
 
 .mens-category {
-	padding:13% 0;
+	padding:11% 0;
 	flex: 2 0 50%;
 }
 
 .trends-category {
-	padding:13% 0;
+	padding:11% 0;
 	flex: 1 0 25%;
 }
 
 .glasses-category {
-	padding:13% 0;
+	padding:11% 0;
 	flex: 1 0 25%;
 }
 
 .sale-category {
-	padding:13% 0;
+	padding:11% 0;
 	flex: 1 0 25%;
 }
 
 .bags-category {
-	padding:13% 0;
+	padding:11% 0;
 	flex: 1 0 25%;
 }
 
 .womens-category {
-	padding:13% 0;
+	padding:11% 0;
 	flex: 2 0 50%;
 }
 
@@ -598,10 +606,35 @@ h2 {
 
 /*product list section*/
 
-.product_images {
-	padding: 3rem 3rem;
+
+.product_list h2{
+	margin-bottom: 1rem;
 }
 
+
+.product_images {
+	height: 28rem;
+	padding: 2.3rem;
+}
+
+.product_images img{
+	width: 15rem;
+}
+
+.product p {
+
+	font-size: 0.7rem;
+
+}
+.product_name {
+
+	font-size: 1.5rem;
+}
+
+.product .price{
+
+	font-size: 1rem;
+}
 /*end of product list section*/
 
 /*sign up section*/
@@ -611,7 +644,7 @@ h2 {
 }
 
 .signup {
-	height: 21.5rem;
+	height: 23.5rem;
 	margin-top: 4rem;
 }
 
@@ -756,6 +789,10 @@ html{
 /*box section*/
 .box_area{
 	height: 650px;
+}
+
+.box_category{
+	font-size: 2.3rem;
 }
 /*end of box section*/
 
