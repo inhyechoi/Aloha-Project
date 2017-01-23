@@ -1,14 +1,19 @@
+// anchor link on the top menu
+
+$(function() {
+
 $('a[href^="#"]').on('click', function (event) {
     event.preventDefault();
 
-    var target = this.hash,                                     // takes '#' of 'a href'
-        $target = $(target);                                     // targets '#' of 'a href'
+    var target = this.hash,       // takes '#' of 'a href'
+        $target = $(target);      // targets '#' of 'a href'
 
-    $('html, body').animate({                                 // animate method on the body
-        scrollTop: $target.offset().top - 80         // scrolltop animate method smooth scroll to corresponding 'a href' #
+    $('html, body').animate({                 // animate method on the body
+        scrollTop: $target.offset().top - 80   // scrolltop animate method smooth scroll to corresponding 'a href' #
     }, 900)                                                               // .top 116 for fixed nav bar. 900 for scroll speed in millisec
 });
-
+})
+// auto sliding images 
 
 $(function() {
         $('.product').flickity({
@@ -21,35 +26,25 @@ $(function() {
         });
 })
 
+//prompt pop up sign on sign up
 
+$('#button').on('click', function(event) {
+  event.preventDefault();
+  var userEmail = $('input:text').val();
+  if (userEmail != '') {
+      var valid = validateEmail(userEmail);
+      if (valid) {
+        alert("Thanks for subscribing!");
+      } else {
+      alert("Please include an '@' in email address. " + userEmail + " is missing an '@'.");
+      }
+      } else{
+    alert ("Please submit a valid email address.");
+  }
+  
+})
 
-$('#signup-form').on('submit', function(event) {
-   event.preventDefault();
- 	$('input:text').val('');
-   if ( $('.email').val() == '' ) {
-      alert('Please put a valid email address');
-   } else {
-      alert('Thanks for subscribing!');
-   }
-});
-
-
-// $('#singup-form').on('submit', function(event) {
-//       event.preventDefault();
-
-//         var sEmail = $('.email').val();
-
-//         if ($('.email').val() == 0) {
-
-//             alert('Please enter valid email address');
-//             e.preventDefault();
-//         }
-//         if (validateEmail(sEmail)) {
-//             alert('Email is valid');
-//         }
-//         else {
-//             alert('Invalid Email Address');
-//             e.preventDefault();
-//         }
-// });
-
+function validateEmail(email) {
+ var pattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+ return pattern.test(email);
+}

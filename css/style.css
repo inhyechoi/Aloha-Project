@@ -429,6 +429,7 @@ button{
 	position: relative;
 	left: 9.2rem;
 	bottom: 2.7rem;
+	outline:none;
 }
 
 button:hover,
