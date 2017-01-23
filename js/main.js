@@ -26,7 +26,7 @@ $(function() {
         });
 })
 
-//prompt pop up sign on sign up
+//prompt pop up sign on sign up section
 
 $('#button').on('click', function(event) {
   event.preventDefault();
