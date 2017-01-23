@@ -829,29 +829,9 @@ html{
 /*end of box section*/
 
 /*product list section*/
-/*.product{
-	width: auto;
+.product_images {
+	width: 25%;
 }
- .product_list ul{
- 	display: inline-block;
- }
-
- .product li {
-	width: 16rem;
-	vertical-align: middle;
-}
-
-img {
-	width: 15rem;
-}
-
-
-.product h3 {
-	font-size: 1.5rem;
-	line-height: 1;
-	padding: 1rem;
-}
-*/
 /*end of product list section*/
 
 /*signup section*/
