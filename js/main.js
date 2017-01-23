@@ -19,7 +19,7 @@ $(function() {
             autoPlay: true,
             prevNextButtons: false
         });
-    })  
+})
 
 
 
@@ -33,4 +33,23 @@ $('#signup-form').on('submit', function(event) {
    }
 });
 
+
+// $('#singup-form').on('submit', function(event) {
+//       event.preventDefault();
+
+//         var sEmail = $('.email').val();
+
+//         if ($('.email').val() == 0) {
+
+//             alert('Please enter valid email address');
+//             e.preventDefault();
+//         }
+//         if (validateEmail(sEmail)) {
+//             alert('Email is valid');
+//         }
+//         else {
+//             alert('Invalid Email Address');
+//             e.preventDefault();
+//         }
+// });
 
