@@ -534,24 +534,29 @@ h2 {
 .logo { 
 	width: 7.8rem;
 	order: 1;
+	flex-basis: 20%;
 }
 
 .cart { 
 	width: 3rem;
 	order: 3;
+	flex-basis: 18%;
+	text-align: right;
 }
 
 .nav {
-	width:40%;
+	width: 62%;
 	order: 2;
-	border-top: none;	
+	border-top: none;
+	flex-basis: 60%;
+		
 }
+
 .nav a{
 	font-size: 0.9rem;
 }
 .nav li {
 	margin: 0 0.3rem;
-	
 }
 /*end of header section*/
 
