@@ -562,6 +562,9 @@ button:active {
 		font-family: 'Raleway Display Web', Arial, Helvetica, sans-serif;
 		color: white;
 	}
+	.socialmedia_name:hover {
+		color: #b64036;
+	}
 }
 /* end of Breakpoints:tablet*/
 
