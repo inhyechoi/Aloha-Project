@@ -1,10 +1,3 @@
-/*.clearfix:before,
-.clearfix:after {
-	content:"";
-	display: table;
-	clear: both;
-}*/
-
 /*fonts*/
 @font-face {
     font-family: 'Playfair Display Web';
@@ -99,27 +92,20 @@ html{
 body{
 	margin: 0 auto;
 	font-family: 'Raleway Display Web', sans-serif; 
-	font-weight: normal;
-    font-style: normal;
 }
 
 h2 {
 	font-family: 'Playfair Display Web', serif;
-	font-weight: normal;
     font-style: italic;
 	font-size: 2.4rem;
 }
 h3 {
 	font-family: 'Playfair Display Web', serif;
-	font-weight: normal;
-    font-style: normal;
 }
 .bold{
 	font-weight: bold;
-    font-style: normal;
+	font-style: normal;
 }
-
-
 /*header section*/
 .header{
 	position: fixed;
@@ -133,48 +119,36 @@ h3 {
 	width: 100%;
 	border-bottom: 1px solid #D3D3D3;
 }
-
 .logo { 
 	width: 8.8rem;
 	height: auto;
 	padding: 0 0.1rem 0 0.15rem;
 }
-
 .cart { 
 	width: 3.57rem;
-	height: auto;
 }
-
-.nav
-	{
+.nav{
 	border-top: 1px solid #D3D3D3;
 	margin-top: 0.4rem;
 	flex-grow: 1;
 	width: 100%;
-	}
-
+}
 .nav ul{
 	text-align: center;
 	padding: 1rem 0;
-
 }
-
 .nav li {
 	display: inline;
 	margin: 0 1rem;
 }
-
 .nav a{
 	font-size: 1rem;
 	font-family: 'Raleway Display Web', sans-serif;
 	font-weight: bold;
-    font-style: normal;
 	color: #F05146;
 	text-decoration: none;
 	text-transform: uppercase;
 }
-
-/*end of header section*/
 
 /*banner section*/
 .hero { 
@@ -188,12 +162,9 @@ h3 {
 	height: 400px;
 	position: relative;
 }
-
-
 .hero_text { /*text in banner image*/
 	font-family: 'Raleway Display Web', sans-serif; 
 	font-weight: bold;
-    font-style: normal;
 	font-size: 1.26rem;
 	color: #ffffff;
 	text-align: center;
@@ -201,39 +172,29 @@ h3 {
 	padding-top: 11.8rem;
 	text-transform: uppercase;
 }
-
 .hero_springsummer { /*text in banner image*/
 	font-family: 'Playfair Display Web', serif;
-	font-weight: normal;
-    font-style: normal;
 	font-size: 2.5rem;
 	margin: 1.35rem 3.42rem;
 	text-shadow: 0.14rem 0.14rem 0.57rem rgba(0, 0, 0, 0.4);
 	color: white;
 	text-align: center;
 }
-/*end of banner section*/
 
 /*content section*/
-.content1 {
-	padding: 4rem 1rem 4rem 1rem;
-	margin: 0 auto 0 auto;
+.content {
+	padding: 1rem;
+	margin: 3rem auto;
 }
-
-.content1_text {
+.content_text {
 	font-family: 'Raleway Display Web', sans-serif; 
-	font-weight: normal;
-    font-style: normal;
 	font-size: 1.14rem;
 	padding-top: 1.4rem;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	line-height: 2;
 }
 
-/*end of content section*/
-
 /*box images section*/
-
 .box_area {
 	flex: 0 1 auto;
 	display:flex;
@@ -241,17 +202,13 @@ h3 {
 	text-align: center;
 	margin-bottom: 4rem;
 }
-
 .box_category{
 	text-transform: uppercase;
 	color: white;
 	font-family: 'Raleway Display Web', sans-serif; 
 	font-weight: bold;
-    font-style: normal;
 	font-size: 1.7rem;
 }
-
-
 .mens-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	   url('../images/mens-category.jpg')no-repeat center ;
@@ -260,7 +217,6 @@ h3 {
 	flex: 2 0 100%;
 	border: 4px solid white;
 }
-
 .trends-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	    url('../images/trends-category.jpg')no-repeat center; 
@@ -269,7 +225,6 @@ h3 {
 	flex: 1 0 50%;
 	border: 4px solid white;
 }
-
 .glasses-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	    url('../images/glasses-category.jpg')no-repeat center;
@@ -278,7 +233,6 @@ h3 {
 	flex: 1 0 50%;
 	border: 4px solid white;
 }
-
 .sale-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	    url('../images/sale-category.jpg')no-repeat center;
@@ -287,7 +241,6 @@ h3 {
 	flex: 1 0 50%;
 	border: 4px solid white;
 }
-
 .bags-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	    url('../images/bags-category.jpg')no-repeat center; 
@@ -296,7 +249,6 @@ h3 {
 	flex: 1 0 50%;
 	border: 4px solid white;
 }
-
 .womens-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
 	    url('../images/womens-category.jpg')no-repeat center; 
@@ -305,49 +257,37 @@ h3 {
 	flex: 1 0 100%;
 	border: 4px solid white;
 }
-/*end of box images section*/
 
 /*product list section*/
 #container {	
 	text-align: center;	
-	height: auto;
 	margin-bottom: 0.57rem;
 }
-
-
 .product_images {
 	list-style: none;
 	line-height: 2;
-	padding: 4.1rem 2rem 3rem 3.5rem;
-}
-
-.product_images .dot {
-	padding: 0;
+	padding: 4.1rem 2rem 3rem 2rem;
 }
 .product p {
 	font-family: 'Raleway Display Web', sans-serif; 
 	font-weight: bold;
-    font-style: normal;
 	font-size: 0.78rem;
 	color: #969696;
 	text-transform: uppercase;
 }
-
+.product li{
+	width: 100%;
+}
 .product_name {
 	color: #e2574c;
 	font-size: 1.64rem;
 }
-
 .product .price{
 	font-family: 'Raleway Display Web', sans-serif; 
 	font-weight: bold;
-    font-style: normal;
 	font-size: 1.07rem;
 	color: #969696;
 }
-
-
-/*end of product list section*/
 
 /*sign up section*/
 form {
@@ -355,9 +295,7 @@ form {
 	top: 2.14rem;
 	max-width: 31rem;
 	margin: auto;
-	width: 100%;
 }
-
 input{
 	outline: none;
 	border-style: none;
@@ -366,20 +304,16 @@ input{
 	width: 28.8rem;
     height: 2.85rem;
 	font-family: 'Raleway Display Web', sans-serif; 
-	font-weight: normal;
-    font-style: normal;
 	font-size: 1.07rem;
 }
 input:focus{
 	outline: none;
 	box-shadow: .14rem .14rem .38rem #888888;
 }
-
 label{
 	font-family: Helvetica;
 	font-weight: bold;
 }
-
 .signup{
 	margin: 4rem auto 0 auto;
 	text-shadow: 0.03rem 0.03rem 0.07rem #000000;
@@ -387,23 +321,17 @@ label{
 	    url('../images/wave-bkgd.jpg') no-repeat bottom;
 	height: 23.8rem;
 }
-
-.signup_text{
+.signup_title{
 	padding-top: 4.2rem;
 	color: #ffffff;
 }
-
-.signup_text2{
+.signup_text{
 	padding-top: 1.40rem;
 	font-family: 'Raleway Display Web', sans-serif; 
-	font-weight: normal;
-    font-style: normal;
 	font-size: 1.14rem;
 	color: #ffffff;
 	line-height: 2;
-	margin: 0 2.95% 0 2.95%;
 }
-
 button{
 	border: 0;
 	background-color: #e2574c;
@@ -414,19 +342,16 @@ button{
 	cursor: pointer;
 	font-family: 'Raleway Display Web', sans-serif; 
 	font-weight: bold;
-    font-style: normal;
 	font-size: 1.03rem;
 	position: relative;
 	left: 10.2rem;
 	bottom: 2.7rem;
 	outline:none;
 }
-
 button:hover,
 button:active {
 	background-color: #AD3F36; 
 }
-/*end of sign up section*/
 
 /*footer section*/
 .footer {
@@ -440,67 +365,49 @@ button:active {
 	padding: 2rem 0;
 	justify-content: center;
 }
-
 .footer p {
 	color: white;
 	font-family: 'Playfair Display Web', serif;
-	font-weight: normal;
-    font-style: normal;
 	font-size: 1rem;
 }
-
 .alohaapparel {
 	margin-bottom: 1.3rem;
 	line-height: 1.5;
 }
-
-.contactinfo {
+.contact_info {
 	margin-bottom: 1.21rem;
 }
-
 .email {
 	color: white;
 }
-
 .email:hover {
 	color: #b64036;
 }
-
 .address {
 	line-height: 1.5;
 	margin-bottom: 2.2rem;
 }
-
 .address p{
 	color: #969696;
 }
-
 .socialmedia ul {
 	display: block;
 	align-self: flex-end;
 }
 .socialmedia li {
 	display: inline-block;
-	padding : 0 0.42rem 0 0.42rem;
-
+	padding : 0 0.42rem;
 }
-
 .fa {
 	color: white;
 }
 .fa:hover {
 	color: #b64036;
 }
-
 .socialmedia_name{
 	display:none;
 }
-
-
-/*end of footer section*/
 /* End of mobile version*/
-
-
 
 /* Breakpoints:tablet*/
 @media screen and (min-width: 600px) {
@@ -510,7 +417,7 @@ button:active {
 	h2 {
 		font-size: 2.4rem;
 	}
-	/*header section*/
+/*header section*/
 	.header{
 		padding-left: 0.6rem;
 		padding-right: 1rem;
@@ -536,47 +443,30 @@ button:active {
 	.nav a{
 		font-size: 0.9rem;
 	}
-	.nav li {
-		margin: 0 0.3rem;
-	}
-	/*end of header section*/
-	/*banner section*/
-	.hero { 	
+
+/*banner section*/
+	.hero { 
 		margin-top: 5.2rem;
-		clear: both;
 		background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), 
 			url('../images/banner-girl.png') no-repeat center 3.8rem, 
 			url('../images/flower-bkgd.jpg') repeat-x center top;
 		background-size: cover, 9.37rem 23rem, cover;
-		height: 25rem;
 		position: relative;
 	}
-	.hero_text { /*text in banner image*/
+	.hero_text { 
 		font-size: 1.25rem;
 		padding-top: 9.6rem;
 	}
-	.hero_springsummer { /*text in banner image*/
+	.hero_springsummer {
 		font-size: 2.95rem;
 		letter-spacing: 0.04rem;
 		text-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
 	}
-	/*end of banner section*/
-	/*content section*/
-	.content1 {
-		padding: 4rem 0;
-		margin: 0 auto 0 auto;
+/*content section*/
+	.content {
+		width: 630px;
 	}
-	.content1_text {
-		font-size: 1.15rem;
-		padding-top: 1.5rem;
-		line-height: 2;
-	}
-	/*end of content section*/
-
-	/*box section*/
-	.box_area{
-		margin-bottom: 4rem;
-	}
+/*box section*/
 	.mens-category {
 		padding:11% 0;
 		flex: 2 0 50%;
@@ -601,10 +491,12 @@ button:active {
 		padding:11% 0;
 		flex: 2 0 50%;
 	}
-	/*end of box section*/
-	/*product list section*/
+/*product list section*/
 	.product_list h2{
 		margin-bottom: 1rem;
+	}
+	.product li{
+		width: 50%;
 	}
 	.product_images {
 		height: 28rem;
@@ -623,28 +515,16 @@ button:active {
 	.product .price{
 		font-size: 1rem;
 	}
-	/*end of product list section*/
-	/*sign up section*/
-	.form{
-		max-width: 31rem;
-		width: 100%;
-	}
+/*sign up section*/
 	.signup {
-		height: 23.5rem;
-		margin-top: 4rem;
+		height: 21.5rem;
 	}
-	input{
-		max-width: 29rem;
-		width: 100%;
-		height: 3rem;
+	.signup_text{
+		width: 670px;
+		margin: 0 auto;
 	}
-	button{
-		position: relative;
-		left: 10.2rem;
-		bottom: 2.64rem;
-	}
-	/*end of sign up section*/
-	/*footer section*/
+
+/*footer section*/
 	.footer {
 		display: flex;
 		flex-direction: row;
@@ -682,7 +562,6 @@ button:active {
 		color: white;
 	}
 }
-/*end of footer section*/
 /* end of Breakpoints:tablet*/
 
 /* Breakpoints:desktop*/
@@ -692,9 +571,6 @@ button:active {
 	}
 	/*header section*/
 	.header{
-		padding: 1rem 3rem;
-		display:flex;
-		justify-content: space-between;
 		height: 6rem;
 	}
 	.logo {
@@ -708,7 +584,6 @@ button:active {
 	.nav a{
 		font-size: 1rem;
 	}
-	/*end of header section
 	/*banner section*/
 	.hero { 
 		margin-top: 6rem;	
@@ -726,21 +601,9 @@ button:active {
 	}
 	.hero_springsummer { 
 		font-size: 3.9rem;
-		letter-spacing: 0.04rem;
-		margin-top: 1.1rem;
+		letter-spacing: 0.05rem;
+		margin-top: 1.3rem;
 	}
-	/*end of banner section/
-	/*content section*/
-	.content1 {
-		padding: 4.2rem 18rem 4rem 18rem;
-		margin: 0 auto 0 auto;
-	}
-	.content1_text {
-		font-size: 1.15rem;
-		padding-top: 1.5rem;
-		line-height: 2;
-	}
-	/*end of content section*/
 	/*box section*/
 	.box_area{
 		height: 650px;
@@ -748,34 +611,14 @@ button:active {
 	.box_category{
 		font-size: 2.3rem;
 	}
-	/*end of box section*/
 	/*product list section*/
+	.product li{
+		width: 25%;
+	}
 	.product_images {
 		width: 25%;
 	}
-	/*end of product list section*/
 	/*signup section*/
-	.signup{
-		background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
-			url('../images/wave-bkgd.jpg') no-repeat bottom;
-		height: 21.5rem;
-	}
-	.signup h2{
-		font-size: 2.4rem;
-	}
-	p.signup_text2 {
-		align-self: center;
-		margin: 0 19rem;
-	}
-	.formcontainer {
-		padding-top: 0rem;
-		margin: 0 auto 0 auto;
-		width: 25rem;
-	}
-	form {
-		max-width: 31rem;
-		width: 100%;
-	}
 	input {
 		width: 28rem;
 		padding: 0.7rem 2rem;
@@ -787,7 +630,6 @@ button:active {
 		width: 7.5rem;
 		padding-left: 1.5rem;
 	}
-	/*end of signup section*/
 	/*footer section*/
 	.footer{
 		display: flex;
@@ -796,11 +638,11 @@ button:active {
 	}
 	.footer_text {
 		text-align: left;
-		margin-left: 3.3rem;
+		margin-left: 2.3rem;
 		margin-top: 0.3rem;
 	}
 	.socialmedia{
-		margin-right: 6rem;
+		margin-right: 4.3rem;
 	}
 	.socialmedia ul{
 		text-decoration: none;
@@ -814,6 +656,5 @@ button:active {
 	.socialmedia2{
 		visibility: visible;
 	}
-
 }
 /* end of Breakpoints:desktop*/
