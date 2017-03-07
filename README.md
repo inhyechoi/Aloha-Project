@@ -1,28 +1,19 @@
 # Aloha Project
-Responsive Website Design Project
+First Responsive Website Design Project
 ![banner image] (screenshots/screenshot.jpg)
 
 # Technologies Used for Project
-* CSS
+* CSS3/Sass/SCSS (flexbox layout)
 * html5
 * Google Chrome Dev Tools
-* Sublime Text
+* Sublime Text Editor
+* jQuery
+* Git, GitHub
+* Gulp
 
-# Design Specifications
-Typography:
-* The base font size is 16px for all screen width 600px and up (the mobile base font size is 14px)
-* The body font family is Raleway Light
-* The headings font family is Playfair Display
+# What I learned
+I remember the very first time I saw "Hello World" showed up on the my screen, it was really amazing to see how you can code something and turn it into an actual content that everyone from around the world can be able to see and access it. Introduction to Git and GitHub was somewhat confusing at first, but the more and more I use it I am getting used to it. 
 
-Colors:
-* The HEX code for the body font colour is #2d2d2d
-* The HEX code for the light grey text colour is #969696
-* The HEX code for orange brand colour is #e2574c (used for links, some headings, and buttons)
-* The HEX code for the link hover state colour is #b64036
-* The HEX code for the light grey border colour is #d7d7d7
-* The HEX code for the dark grey background colour is the footer is #242424
+Started off as using floats for most of the layout and learning flexbox afterwards made so much more sense why I should be using flexbox to layout most of the content on the page. 
 
-Screen Sizes:
-* The width of the desktop-friendly content area is 1240px
-* Be responsively designed using a mobile-first approach
-* Be optimized for 3 screen sizes: mobile, min-width: 600px and min-width: 1240px
+Using mixin and variables for Sass files are a bit confusing, but I would like to be able to use them in order to have cleaner and shorter code later on. 
