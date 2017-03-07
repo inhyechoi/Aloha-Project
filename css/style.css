@@ -16,7 +16,6 @@
     font-weight: bold;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Playfair Display Web';
     src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
@@ -27,7 +26,6 @@
     font-weight: bold;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'Playfair Display Web';
     src: url('../fonts/playfairdisplay-italic-webfont.eot');
@@ -38,7 +36,6 @@
     font-weight: normal;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'Playfair Display Web';
     src: url('../fonts/playfairdisplay-regular-webfont.eot');
@@ -49,7 +46,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Raleway Display Web';
     src: url('../fonts/raleway-light-webfont.eot');
@@ -60,7 +56,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Raleway Display Web';
     src: url('../fonts/raleway-medium-webfont.eot');
@@ -71,7 +66,6 @@
     font-weight: bold;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Raleway Display Web';
     src: url('../fonts/raleway-lightitalic-webfont.eot');
@@ -82,7 +76,6 @@
     font-weight: normal;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'Raleway Display Web';
     src: url('../fonts/raleway-mediumitalic-webfont.eot');
@@ -98,8 +91,6 @@
 *{
 	box-sizing: border-box;
 }
-
-
 
 html{
 	font-size:14px;
@@ -124,7 +115,6 @@ h3 {
     font-style: normal;
 }
 .bold{
-	font-family: 'playfair_displaybold', serif;
 	font-weight: bold;
     font-style: normal;
 }
@@ -139,7 +129,7 @@ h3 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 1rem 0.5rem 0 0.3rem;
+	padding: 1.1rem 0.5rem 0 0.3rem;
 	width: 100%;
 	border-bottom: 1px solid #D3D3D3;
 }
@@ -188,14 +178,14 @@ h3 {
 
 /*banner section*/
 .hero { 
-	margin-top: 8.05rem;
+	margin-top: 7.5rem;
 	text-align: center;
 	clear: both;
 	background: linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ), 
-	url('../images/banner-girl.png') no-repeat center 4.6rem, 
-	url('../images/flower-bkgd.jpg') repeat-x center top;
+		url('../images/banner-girl.png') no-repeat center 4.3rem, 
+		url('../images/flower-bkgd.jpg') repeat-x center top;
 	background-size: cover, 10.71rem 26.3em, cover;	
-	height: 28.8rem;
+	height: 400px;
 	position: relative;
 }
 
@@ -208,7 +198,7 @@ h3 {
 	color: #ffffff;
 	text-align: center;
 	text-shadow: 0.14rem 0.14rem 0.57rem rgba(0, 0, 0, 0.6);
-	padding-top: 10.75rem;
+	padding-top: 11.8rem;
 	text-transform: uppercase;
 }
 
@@ -217,7 +207,7 @@ h3 {
 	font-weight: normal;
     font-style: normal;
 	font-size: 2.5rem;
-	margin: 1.42rem 3.42rem;
+	margin: 1.35rem 3.42rem;
 	text-shadow: 0.14rem 0.14rem 0.57rem rgba(0, 0, 0, 0.4);
 	color: white;
 	text-align: center;
@@ -263,8 +253,8 @@ h3 {
 
 
 .mens-category {
-	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ), 
-	url('../images/mens-category.jpg')no-repeat center ;
+	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
+	   url('../images/mens-category.jpg')no-repeat center ;
     background-size: cover, cover;
 	padding:20% 0;
 	flex: 2 0 100%;
@@ -273,7 +263,7 @@ h3 {
 
 .trends-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
-	url('../images/trends-category.jpg')no-repeat center; 
+	    url('../images/trends-category.jpg')no-repeat center; 
 	background-size: cover, cover;
 	padding:20% 0;
 	flex: 1 0 50%;
@@ -282,7 +272,7 @@ h3 {
 
 .glasses-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
-	url('../images/glasses-category.jpg')no-repeat center;
+	    url('../images/glasses-category.jpg')no-repeat center;
 	background-size: cover, cover;
 	padding:20% 0;
 	flex: 1 0 50%;
@@ -291,7 +281,7 @@ h3 {
 
 .sale-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
-	url('../images/sale-category.jpg')no-repeat center;
+	    url('../images/sale-category.jpg')no-repeat center;
 	background-size: cover, cover;
 	padding:20% 0;
 	flex: 1 0 50%;
@@ -300,7 +290,7 @@ h3 {
 
 .bags-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
-	url('../images/bags-category.jpg')no-repeat center; 
+	    url('../images/bags-category.jpg')no-repeat center; 
 	background-size: cover, cover;
 	padding:20% 0;
 	flex: 1 0 50%;
@@ -309,7 +299,7 @@ h3 {
 
 .womens-category {
 	background:  linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23) ),
-	url('../images/womens-category.jpg')no-repeat center; 
+	    url('../images/womens-category.jpg')no-repeat center; 
 	background-size: cover, cover;
 	padding:20% 0;
 	flex: 1 0 100%;
@@ -373,8 +363,8 @@ input{
 	border-style: none;
 	padding: 0.71rem 0 0.71rem 2.14rem;
 	border-radius: 3rem;
-	width: 26.8rem;
-	height: 3rem;
+	width: 28.8rem;
+    height: 2.85rem;
 	font-family: 'Raleway Display Web', sans-serif; 
 	font-weight: normal;
     font-style: normal;
@@ -394,7 +384,7 @@ label{
 	margin: 4rem auto 0 auto;
 	text-shadow: 0.03rem 0.03rem 0.07rem #000000;
 	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
-	url('../images/wave-bkgd.jpg') no-repeat bottom;
+	    url('../images/wave-bkgd.jpg') no-repeat bottom;
 	height: 23.8rem;
 }
 
@@ -411,7 +401,7 @@ label{
 	font-size: 1.14rem;
 	color: #ffffff;
 	line-height: 2;
-	margin: 0 1.95% 0 1.95%;
+	margin: 0 2.95% 0 2.95%;
 }
 
 button{
@@ -427,7 +417,7 @@ button{
     font-style: normal;
 	font-size: 1.03rem;
 	position: relative;
-	left: 9.2rem;
+	left: 10.2rem;
 	bottom: 2.7rem;
 	outline:none;
 }
@@ -478,7 +468,7 @@ button:active {
 
 .address {
 	line-height: 1.5;
-	margin-bottom: 2.5rem;
+	margin-bottom: 2.2rem;
 }
 
 .address p{
@@ -505,6 +495,8 @@ button:active {
 .socialmedia_name{
 	display:none;
 }
+
+
 /*end of footer section*/
 /* End of mobile version*/
 
@@ -512,407 +504,315 @@ button:active {
 
 /* Breakpoints:tablet*/
 @media screen and (min-width: 600px) {
+	html {
+		font-size: 16px;
+	}
+	h2 {
+		font-size: 2.4rem;
+	}
+	/*header section*/
+	.header{
+		padding-left: 0.6rem;
+		padding-right: 1rem;
+		height: 5.2rem;
+	}
+	.logo { 
+		width: 7.8rem;
+		order: 1;
+		flex-basis: 20%;
+	}
+	.cart { 
+		width: 3rem;
+		order: 3;
+		flex-basis: 18%;
+		text-align: right;
+	}
+	.nav {
+		width: 62%;
+		order: 2;
+		border-top: none;
+		flex-basis: 60%;		
+	}
+	.nav a{
+		font-size: 0.9rem;
+	}
+	.nav li {
+		margin: 0 0.3rem;
+	}
+	/*end of header section*/
+	/*banner section*/
+	.hero { 	
+		margin-top: 5.2rem;
+		clear: both;
+		background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), 
+			url('../images/banner-girl.png') no-repeat center 3.8rem, 
+			url('../images/flower-bkgd.jpg') repeat-x center top;
+		background-size: cover, 9.37rem 23rem, cover;
+		height: 25rem;
+		position: relative;
+	}
+	.hero_text { /*text in banner image*/
+		font-size: 1.25rem;
+		padding-top: 9.6rem;
+	}
+	.hero_springsummer { /*text in banner image*/
+		font-size: 2.95rem;
+		letter-spacing: 0.04rem;
+		text-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+	}
+	/*end of banner section*/
+	/*content section*/
+	.content1 {
+		padding: 4rem 0;
+		margin: 0 auto 0 auto;
+	}
+	.content1_text {
+		font-size: 1.15rem;
+		padding-top: 1.5rem;
+		line-height: 2;
+	}
+	/*end of content section*/
 
-html {
-	font-size: 16px;
+	/*box section*/
+	.box_area{
+		margin-bottom: 4rem;
+	}
+	.mens-category {
+		padding:11% 0;
+		flex: 2 0 50%;
+	}
+	.trends-category {
+		padding:11% 0;
+		flex: 1 0 25%;
+	}
+	.glasses-category {
+		padding:11% 0;
+		flex: 1 0 25%;
+	}
+	.sale-category {
+		padding:11% 0;
+		flex: 1 0 25%;
+	}
+	.bags-category {
+		padding:11% 0;
+		flex: 1 0 25%;
+	}
+	.womens-category {
+		padding:11% 0;
+		flex: 2 0 50%;
+	}
+	/*end of box section*/
+	/*product list section*/
+	.product_list h2{
+		margin-bottom: 1rem;
+	}
+	.product_images {
+		height: 28rem;
+		padding: 2.3rem;
+		width: 50%;
+	}
+	.product_images img{
+		width: 15rem;
+	}
+	.product p {
+		font-size: 0.7rem;
+	}
+	.product_name {
+		font-size: 1.5rem;
+	}
+	.product .price{
+		font-size: 1rem;
+	}
+	/*end of product list section*/
+	/*sign up section*/
+	.form{
+		max-width: 31rem;
+		width: 100%;
+	}
+	.signup {
+		height: 23.5rem;
+		margin-top: 4rem;
+	}
+	input{
+		max-width: 29rem;
+		width: 100%;
+		height: 3rem;
+	}
+	button{
+		position: relative;
+		left: 10.2rem;
+		bottom: 2.64rem;
+	}
+	/*end of sign up section*/
+	/*footer section*/
+	.footer {
+		display: flex;
+		flex-direction: row;
+		height: 18rem;
+		padding: 3.8rem 0 0 0;
+		justify-content: space-between;
+	}
+	.footer_text {
+		width: 20rem;
+		margin-left: 1.3rem;
+		text-align: left;
+	}
+	.socialmedia ul{
+		display: flex;
+		flex-direction: column;
+		text-decoration: none;
+		text-align: left;
+		line-height: 1.8;
+	}
+	.socialmedia{
+		margin-right: 2.7rem;
+	}
+	.socialmedia li {
+		width: auto;
+		margin-bottom: 0.2rem;
+	}
+	.socialmedia i{
+		width:1.7rem;
+	}
+	.socialmedia a{
+		text-decoration: none;
+	}
+	.socialmedia_name {
+		display: inline-block;
+		color: white;
+	}
 }
-
-h2 {
-	font-size: 2.4rem;
-}
-
-
-
-/*header section*/
-.header{
-	padding-left: 0.6rem;
-	padding-right: 1rem;
-	height: 5.2rem;
-}
-
-
-.logo { 
-	width: 7.8rem;
-	order: 1;
-	flex-basis: 20%;
-}
-
-.cart { 
-	width: 3rem;
-	order: 3;
-	flex-basis: 18%;
-	text-align: right;
-}
-
-.nav {
-	width: 62%;
-	order: 2;
-	border-top: none;
-	flex-basis: 60%;
-		
-}
-
-.nav a{
-	font-size: 0.9rem;
-}
-.nav li {
-	margin: 0 0.3rem;
-}
-/*end of header section*/
-
-
-/*banner section*/
-
-.hero { 	
-	margin-top: 5.2rem;
-	clear: both;
-	background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), 
-	url('../images/banner-girl.png') no-repeat center 3.8rem, 
-	url('../images/flower-bkgd.jpg') repeat-x center top;
-	background-size: cover, 9.37rem 23rem, cover;
-	height: 25rem;
-	position: relative;
-}
-
-.hero_text { /*text in banner image*/
-	font-size: 1.25rem;
-	padding-top: 9.6rem;
-}
-
-.hero_springsummer { /*text in banner image*/
-	font-size: 2.95rem;
-	letter-spacing: 0.04rem;
-	text-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
-}
-/*end of banner section*/
-
-/*content section*/
-.content1 {
-	padding: 4rem auto;
-	margin: 0 auto 0 auto;
-}
-
-.content1_text {
-	font-size: 1.15rem;
-	padding-top: 1.5rem;
-	line-height: 2;
-/*	width: 42rem;*/
-}
-
-/*end of content section*/
-
-
-/*box section*/
-.box_area{
-	margin-bottom: 4rem;
-}
-
-.mens-category {
-	padding:11% 0;
-	flex: 2 0 50%;
-}
-
-.trends-category {
-	padding:11% 0;
-	flex: 1 0 25%;
-}
-
-.glasses-category {
-	padding:11% 0;
-	flex: 1 0 25%;
-}
-
-.sale-category {
-	padding:11% 0;
-	flex: 1 0 25%;
-}
-
-.bags-category {
-	padding:11% 0;
-	flex: 1 0 25%;
-}
-
-.womens-category {
-	padding:11% 0;
-	flex: 2 0 50%;
-}
-
-/*end of box section*/
-
-
-/*product list section*/
-
-
-.product_list h2{
-	margin-bottom: 1rem;
-}
-
-
-.product_images {
-	height: 28rem;
-	padding: 2.3rem;
-	width: 50%;
-}
-
-.product_images img{
-	width: 15rem;
-}
-
-.product p {
-
-	font-size: 0.7rem;
-
-}
-.product_name {
-
-	font-size: 1.5rem;
-}
-
-.product .price{
-
-	font-size: 1rem;
-}
-/*end of product list section*/
-
-/*sign up section*/
-.form{
-	max-width: 31rem;
-	width: 100%;
-}
-
-.signup {
-	height: 23.5rem;
-	margin-top: 4rem;
-}
-
-input{
-	max-width: 29rem;
-	width: 100%;
-	height: 3rem;
-}
-
-button{
-	position: relative;
-	left: 10.2rem;
-	bottom: 2.64rem;
-}
-
-/*end of sign up section*/
-
-/*footer section*/
-.footer {
-	display: flex;
-	flex-direction: row;
-	height: 18rem;
-	padding: 3.8rem 0 0 0;
-	justify-content: space-between;
-}
-
-.footer_text {
-	width: 20rem;
-	margin-left: 1.3rem;
-	text-align: left;
-}
-
-.socialmedia ul{
-	display: flex;
-	flex-direction: column;
-	text-decoration: none;
-	text-align: left;
-	line-height: 1.8;
-}
-
-.socialmedia{
-	margin-right: 2.7rem;
-}
-.socialmedia li {
-	width: auto;
-	margin-bottom: 0.2rem;
-}
-
-.socialmedia i{
-	width:1.7rem;
-}
-.socialmedia a{
-	text-decoration: none;
-}
-
-.socialmedia_name {
-	display: inline-block;
-	color: white;
-}
-
 /*end of footer section*/
-   
-
 /* end of Breakpoints:tablet*/
 
 /* Breakpoints:desktop*/
-
-
 @media screen and (min-width: 1240px) {
-
-html{
-	font-size: 16px;
+	html{
+		font-size: 16px;
+	}
+	/*header section*/
+	.header{
+		padding: 1rem 3rem;
+		display:flex;
+		justify-content: space-between;
+		height: 6rem;
+	}
+	.logo {
+		width:10.2rem;
+		margin-left: 0.1rem;
+	}
+	.cart { 
+		width: 3.9rem;
+		margin-right: 0.2rem; 
+	}
+	.nav a{
+		font-size: 1rem;
+	}
+	/*end of header section
+	/*banner section*/
+	.hero { 
+		margin-top: 6rem;	
+		clear: both;
+		background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24) ), 
+			url('../images/banner-girl.png') no-repeat center 3.81rem, 
+			url('../images/flower-bkgd.jpg') repeat-x center top;
+		background-size: cover, auto 38.5rem, contain;
+		height: 34.3rem;
+		position: relative;
+	}
+	.hero_text { 
+		font-size: 1.25rem;
+		padding-top: 13.9rem;
+	}
+	.hero_springsummer { 
+		font-size: 3.9rem;
+		letter-spacing: 0.04rem;
+		margin-top: 1.1rem;
+	}
+	/*end of banner section/
+	/*content section*/
+	.content1 {
+		padding: 4.2rem 18rem 4rem 18rem;
+		margin: 0 auto 0 auto;
+	}
+	.content1_text {
+		font-size: 1.15rem;
+		padding-top: 1.5rem;
+		line-height: 2;
+	}
+	/*end of content section*/
+	/*box section*/
+	.box_area{
+		height: 650px;
+	}
+	.box_category{
+		font-size: 2.3rem;
+	}
+	/*end of box section*/
+	/*product list section*/
+	.product_images {
+		width: 25%;
+	}
+	/*end of product list section*/
+	/*signup section*/
+	.signup{
+		background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
+			url('../images/wave-bkgd.jpg') no-repeat bottom;
+		height: 21.5rem;
+	}
+	.signup h2{
+		font-size: 2.4rem;
+	}
+	p.signup_text2 {
+		align-self: center;
+		margin: 0 19rem;
+	}
+	.formcontainer {
+		padding-top: 0rem;
+		margin: 0 auto 0 auto;
+		width: 25rem;
+	}
+	form {
+		max-width: 31rem;
+		width: 100%;
+	}
+	input {
+		width: 28rem;
+		padding: 0.7rem 2rem;
+	}
+	button{
+		position: relative;
+		left: 10rem;
+		bottom: 2.6rem;
+		width: 7.5rem;
+		padding-left: 1.5rem;
+	}
+	/*end of signup section*/
+	/*footer section*/
+	.footer{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.footer_text {
+		text-align: left;
+		margin-left: 3.3rem;
+		margin-top: 0.3rem;
+	}
+	.socialmedia{
+		margin-right: 6rem;
+	}
+	.socialmedia ul{
+		text-decoration: none;
+		text-align: left;
+	}
+	.socialmedia li {
+		width: 8rem;
+		height: 0.3rem;
+		margin: 0.2rem 0.2rem 1.5rem 1.2rem;
+	}
+	.socialmedia2{
+		visibility: visible;
+	}
 }
-
-/*header section*/
-
-.header{
-	padding: 1rem 3rem;
-	display:flex;
-	justify-content: space-between;
-	height: 6rem;
-
-}
-.logo {
-	width:10.2rem;
-	margin-left: 0.1rem;
-}
-
-.cart { 
-	width: 3.9rem;
-	margin-right: 0.2rem; 
-}
-
-.nav a{
-	font-size: 1rem;
-}
-
-/*end of header section
-
-
-/*banner section*/
-.hero { 
-	margin-top: 6rem;	
-	clear: both;
-	background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24) ), 
-	url('../images/banner-girl.png') no-repeat center 3.81rem, 
-	url('../images/flower-bkgd.jpg') repeat-x center top;
-	background-size: cover, auto 38.5rem, contain;
-	height: 34.3rem;
-	position: relative;
-}
-
-.hero_text { 
-	font-size: 1.25rem;
-	padding-top: 13.9rem;
-}
-
-.hero_springsummer { 
-	font-size: 3.9rem;
-	letter-spacing: 0.04rem;
-	margin-top: 1.1rem;
-}
-/*end of banner section/
-
-
-
-
-/*content section*/
-.content1 {
-	padding: 4.2rem 18rem 4rem 18rem;
-	margin: 0 auto 0 auto;
-}
-
-.content1_text {
-	font-size: 1.15rem;
-	padding-top: 1.5rem;
-	line-height: 2;
-}
-
-/*end of content section*/
-
-/*box section*/
-.box_area{
-	height: 650px;
-}
-
-.box_category{
-	font-size: 2.3rem;
-}
-/*end of box section*/
-
-/*product list section*/
-.product_images {
-	width: 25%;
-}
-/*end of product list section*/
-
-/*signup section*/
-.signup{
-	background: linear-gradient( rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18) ), 
-	url('../images/wave-bkgd.jpg') no-repeat bottom;
-	height: 21.5rem;
-}
-
-.signup h2{
-	font-size: 2.4rem;
-}
-
-p.signup_text2 {
-	align-self: center;
-	margin: 0 19rem;
-}
-
-.formcontainer {
-	padding-top: 0rem;
-	margin: 0 auto 0 auto;
-	width: 25rem;
-}
-
-form {
-	max-width: 31rem;
-	width: 100%;
-}
-
-input {
-	width: 28rem;
-	padding: 0.7rem 2rem;
-}
-
-button{
-	position: relative;
-	left: 10rem;
-	bottom: 2.6rem;
-	width: 7.5rem;
-	padding-left: 1.5rem;
-}
-
-/*end of signup section*/
-
-/*footer section*/
-
-.footer{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;;
-}
-
-.footer_text {
-	text-align: left;
-	margin-left: 3.3rem;
-	margin-top: 0.3rem;
-}
-
-.socialmedia{
-	margin-right: 6rem;
-}
-
-.socialmedia ul{
-	text-decoration: none;
-	text-align: left;
-}
-
-.socialmedia li {
-	width: 8rem;
-	height: 0.3rem;
-	margin: 0.2rem 0.2rem 1.5rem 1.2rem;
-}
-
-.socialmedia2{
-	visibility: visible;
-}
-
-
 /* end of Breakpoints:desktop*/
