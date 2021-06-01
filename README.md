@@ -1,6 +1,6 @@
 # Aloha Project
 First Responsive Website Design Project
-![banner image] (screenshots/screenshot.jpg)
+<img src="https://github.com/inhyechoi/Aloha-Project/blob/master/screenshots/screenshot.jpg" height="500" width="auto" alt="Aloha Main Image">
 
 # Technologies Used for Project
 * CSS3/Sass/SCSS (flexbox layout)
